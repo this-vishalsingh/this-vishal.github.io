@@ -218,6 +218,9 @@ button {
 
 /* Logo Badge */
 .logo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     font-size: 0.65rem;
     font-weight: 600;
     padding: 2px 8px;
@@ -229,6 +232,9 @@ button {
 
 /* Footer Badge */
 .footer-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     font-size: 0.7rem;
     font-weight: 500;
     padding: 2px 8px;
@@ -236,6 +242,13 @@ button {
     color: var(--color-accent-primary);
     border-radius: var(--radius-full);
     border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.brand-logo {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 .nav-links {

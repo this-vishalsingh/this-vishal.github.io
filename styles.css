@@ -908,6 +908,20 @@ button {
     color: var(--color-text-secondary);
 }
 
+.audit-platform-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    margin-top: var(--spacing-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgba(0, 212, 255, 0.15);
+    color: var(--color-accent-primary);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+}
+
 /* Private Audits */
 .private-audit-grid {
     display: grid;
